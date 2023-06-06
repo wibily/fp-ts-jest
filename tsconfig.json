@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": ["es2019"],
+        "outDir": "dist",
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "preserveConstEnums": true,
+        "removeComments": false,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+      },
+    "include": ["**/*", "global.d.ts"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+  }
